@@ -1,0 +1,13 @@
+.imgBox {
+	position: absolute;
+	display: flex;
+	flex-wrap: wrap;
+	left:30%;
+
+}
+
+.positioning {
+	position: absolute;
+	cursor: pointer;
+	border:3px solid blue;
+}

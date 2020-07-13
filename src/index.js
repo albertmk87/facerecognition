@@ -1,12 +1,13 @@
 import React from 'react';
+import MainPage from './components/mainPage/mainPage.js';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-
+import {BrowserRouter} from 'react-router-dom';
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+   <BrowserRouter> <MainPage /></BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
